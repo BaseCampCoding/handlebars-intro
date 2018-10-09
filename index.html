@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Handlebars Tutorial</title>
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js" defer></script>
+  <script type="text/javascript" src="main.js" defer></script>
+</head>
+  <body>
+    <main>
+      <header>
+        <h1>Handlebars Tutorial</h1>
+        <p>Let's learn how we can create large blocks of HTML and insert them
+        into HTML documents. We'll be using Handlebars, which has excellent
+        docs and a tutorial to help you. Learn more here <a
+        href="https://handlebarsjs.com/" target="_blank">here</a>.</p>
+      </header>
+      <section>
+        <div class="entry">
+          <h2>1. Install the JavaScript file</h2>
+          <p>
+            Insert the script <code>https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js</code>
+            in the <code>&lt;head&gt;</code> of this document, before the <code>main.js</code> script.
+            Don't forget to add the <code>defer</code> attribute.
+          </p>
+        </div>
+        <div class="entry">
+          <h2>2. Click this button</h2>
+          <p>
+            <button id="button1">Click me!</button>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script id="template1" type="text/x-handlebars-template">
+      <div class="entry">
+        <h2>{{heading}}</h2>
+        <p>{{paragraph1}}</p>
+        <p>{{paragraph2}}</p>
+        <button id="button2">{{buttonText}}</button>
+      </div>
+    </script>
+
+  </body>
+</html>

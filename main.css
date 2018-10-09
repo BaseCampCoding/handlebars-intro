@@ -1,0 +1,18 @@
+html {
+  color: #444;
+  font-family: sans-serif;
+}
+
+main {
+    margin: 2em auto;
+    width: 60em;
+}
+
+header {
+    border-bottom: 1px solid lightgrey;
+    margin: 2em 0;
+}
+
+div.entry {
+  margin: 0 0 2em 0;
+}

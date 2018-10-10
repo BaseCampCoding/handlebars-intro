@@ -1,18 +1,31 @@
 html {
   color: #444;
   font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 main {
-    margin: 2em auto;
-    width: 60em;
+    margin: 2rem auto;
+    width: 80%;
 }
 
 header {
     border-bottom: 1px solid lightgrey;
-    margin: 2em 0;
+    margin: 2rem 0;
 }
 
 div.entry {
-  margin: 0 0 2em 0;
+  margin: 0 0 2rem 0;
+}
+
+code {
+  background-color: #e8e8e8;
+  color: rebeccapurple;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+aside {
+  font-size: smaller;
 }
